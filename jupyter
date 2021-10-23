@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: source block frontends to Jupyter kernels using emacs-jupyter
+# key: jupyter
+# group: code blocks
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+#+BEGIN_SRC jupyter-python :session py :kernel ${1:cp38} :exports both :results raw drawer
+${2:change me}
+#+END_SRC
+$0

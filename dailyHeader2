@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# name: daily header for diary file with to do list
+# group: todoList
+# key: dh2
+# --
+#+TITLE: ${1:20211019} -*- mode: org; -*-
+#+STARTUP: showall
+#+STARTUP: noindent
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+
+** To do list
+
+*** urgent and important, quick     
+ - [ ] Update gcal
+ - [ ] 
+ - [ ] 
+
+*** urgent and important, slow    
+ - [ ] 
+ - [ ] 
+ - [ ] 
+
+*** important not urgent, slow    
+ - [ ] 
+ - [ ] 
+ - [ ] 
+
+$0

@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: list of 5 checkbox items
+# key: c5
+# group: lists
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+- [ ] ${1:item}
+- [ ] ${2:item}
+- [ ] ${3:item}
+- [ ] ${4:item}
+- [ ] ${5:item}
+$0

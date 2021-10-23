@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: dailyHeader
+# key: dh
+# --
+#+TITLE: ${1:20211019} -*- mode: org; -*-
+#+STARTUP: showall
+#+STARTUP: noindent
+#+LATEX_HEADER: \usepackage[margin=0.75in]{geometry}
+$0
