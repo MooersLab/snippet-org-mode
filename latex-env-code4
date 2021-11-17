@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for code environment that is captioned, labeled, indexed, and in comment block.
+# group: latex-envs
+# key: code4
+# --
+% Line numbering on and aligned with left margin. 
+% Add to preamble: \newenvironment{code}{\captionsetup{type=listing}}{}
+\iffalse
+\begin{code}{}  % (fold)
+\index{${2:copying and pasting code!lost bytes}}
+\label{lst:${3:redirScript}}
+\caption{${4:Python script to find lost bytes.}}
+\begin{minted}[frame=lines,
+framerule=2pt,
+linenos=false,
+xleftmargin=\parindent,
+breaklines]{bash}
+\fi
+\begin{verbatim}
+${5:code listing}
+\end{verbatim}
+\iffalse    
+\end{minted}
+\end{code}
+\fi
+$0
