@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for code environment that is captioned, labeled, indexed, line numbered, and left aligned.
+# group: latex-envs
+# key: code1
+# --
+% Line numbering on and aligned with left margin. 
+% Add to preamble: \newenvironment{code}{\captionsetup{type=listing}}{}
+\begin{code}{}
+\index{${1:openCV}!${2:measureSizes}}
+\label{lst:${3:measureSize}}
+\caption{${4:Contents of measureSizes.py.}}
+\inputminted[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}{${5:./Content/codeListings/test.py}}
+\end{minted}
+\end{code}
+$0
