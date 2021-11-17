@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: LaTeX code for verbatim env.
+# group: latex-envs
+# key: verbatim
+# --
+\begin{verbatim}
+${1:Paste here}
+\end{verbatim}
+$0
