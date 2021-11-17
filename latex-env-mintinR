@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex mintinline with R language present
+# group: latex-envs
+# key: mintinR
+# --
+\mintinline{R}{${1:someRcode}} ${0}
