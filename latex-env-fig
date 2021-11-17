@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for figure env
+# group: latex-envs
+# key: fig
+# --
+\begin{figure}
+\begin{center}
+    \includegraphics[width=0.86\textwidth, angle=0]{${1:/Users/blaine/7JU5A.png}}
+\end{center}
+\caption{${2:RET kinase, PDB-ID: 7JU5}}
+\end{figure}
+$0
