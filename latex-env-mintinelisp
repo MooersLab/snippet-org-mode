@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for elisp in the mintinline.
+# group: latex-envs
+# key: mintinelisp
+# --
+\mintinline{elisp}{${1:replaceMe}} ${0}
