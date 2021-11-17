@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for clojure language preset in mintinline.
+# group: latex-envs
+# key: mintineclj
+# --
+\mintinline{clojure}{${1:replaceMe}} ${0}
