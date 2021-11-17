@@ -2,7 +2,7 @@
 
 A library of yasnippet snippets for org-mode. Install where you store your user generated snippets for the yasnippet package. This is usually in `~/.emacs.d/snippets/org-mode`.
 
-## latex-env-
+## latex-env- snippets
 
 The snippets with the `latex-env` prefix are snippets for creating LaTeX environments insdie of org.
 Org will send these to the LaTeX compiler upon export to PDF.
@@ -19,7 +19,7 @@ You have to define the code env by adding `\newenvironment{code}{\captionsetup{t
 The `eqcaptioned` snippet encloses an equation and adds a caption as wells as index key and label.
 
 
-## pymolpy-snippets
+## pymolpy- snippets
 
 See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
 These snippets are also stored in `~/.emacs.d/snippets/org-mode`.
