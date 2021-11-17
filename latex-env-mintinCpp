@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for mintinline with C++ language preset.
+# group: latex-envs
+# key: mintinCpp
+# -- mintinCpp
+\mintinline{C++}{${1:replaceMe}}${0}
