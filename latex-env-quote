@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: LaTeX code for quote env
+# group: latex-envs
+# key: quote
+# --
+\begin{quote}
+${1:Paste here}
+\end{quote}
+$0
