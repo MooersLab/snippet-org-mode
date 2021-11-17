@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for figure env.
+# group: latex-env
+# key: 3col
+# --
+\begin{table}
+\begin{tabular}{lcc}
+\begin{center}
+\hline
+\textbf{${1:Features}} & \textbf{${2:Features}} & \textbf{${3:Features}}\\
+\hlin2
+${4:T} & ${5:dddd} & ${6:ddd} \\
+\hline
+\end{tabular}
+\end{center}
+\caption{${7:RET kinase.}}
+\end{table}
+$0
