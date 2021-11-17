@@ -17,3 +17,9 @@ It also adda an index key and label.
 You have to define the code env by adding `\newenvironment{code}{\captionsetup{type=listing}}{}` to the preamble of your LaTeX file.
 
 The `eqcaptioned` snippet encloses an equation and adds a caption as wells as index key and label.
+
+
+## pymolpy-snippets
+
+See this [repo]() for PyMOL snippets written in Python for use in org-mode.
+These snippets are also stored in `~/.emacs.d/snippets/org-mode`.
