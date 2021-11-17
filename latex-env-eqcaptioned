@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for captioned equation that is labeled and indexed.
+# group: latex-envs
+# key: eqc
+# --
+% Add to preamble to create captioned equation environment.
+% \usepackage{caption};
+%\DeclareCaptionType{eqc}[][]
+%\captionsetup[eqc]{labelformat=empty}
+\label{eq:${1:nameOfEquation}}
+\index{${2:nameOfEquation}}
+\begin{eqc}
+${3:enter equation here}
+\caption{${4:Caption of the equation}}
+\end{eqc}
+${0}
