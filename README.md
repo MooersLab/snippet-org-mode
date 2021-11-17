@@ -21,5 +21,5 @@ The `eqcaptioned` snippet encloses an equation and adds a caption as wells as in
 
 ## pymolpy-snippets
 
-See this [repo]() for PyMOL snippets written in Python for use in org-mode.
+See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
 These snippets are also stored in `~/.emacs.d/snippets/org-mode`.
