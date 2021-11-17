@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers, bmooers1@gmail.com, github.com/MooersLab
+# name: Latex for mintinline with JavaScript language preset.
+# group: latex-envs
+# key: mintinjs
+# --
+\mintinline{JavaScript}{${1:replaceMe}} ${0}
