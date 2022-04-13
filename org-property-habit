@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: habit (or repeated tasks)
+# key: habit
+# group: properites
+# --
+:PROPERTIES:
+:STYLE: habit
+:LAST_REPEAT: [2022-04-09 Sat 14:26]
+:END:
+$0
