@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: export table under point to 
+# key: table2csv
+# group: tables
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+*** Section with table
+:PROPERTIES:
+:TABLE_EXPORT_FILE: ${1:change_me}.csv
+:TABLE_EXPORT_FORMAT: orgtbl-to-csv
+:END:
+The file path leads to the directory of the current task.org file. 
+Place cursor in table and enter "M-x org-table-export" to send to a csv file.
+Source: https://emacs.stackexchange.com/questions/53723/export-table-to-csv-file-without-prompt
+$0
