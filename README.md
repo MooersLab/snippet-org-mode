@@ -23,7 +23,7 @@ The code env enables adding a caption to the minted code block.
 It also adds an index key and label. 
 You have to define the code env by adding `\newenvironment{code}{\captionsetup{type=listing}}{}` to the preamble of your LaTeX file. 
 
-### Equations with captions
+### latex-env-eqcaptioned gives equations with captions
 
 The `eqcaptioned` snippet encloses an equation env and adds a caption as well as index key and label.
 
