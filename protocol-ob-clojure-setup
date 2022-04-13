@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Setup for running clojure in org documents.
+# key: ob-clojure-setup
+# group: protocols
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+ 0. ~touch clojure.org~
+ 1. ~lein new clojure-example~
+ 2. ~cd clojure-example~
+ 3. ~emacs~
+ 4. ~C-x C-f clojure.org~
+ 5. ~M-x cider-jack-in~
+ 6. Wait for  message along the lines of  ~[nREPL] Direct connection to localhost:50367 established~.
+ 7. Enter C-c C-c in the code block.
+ 
