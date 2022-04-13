@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: category
+# key: cat
+# group: properites
+# --
+:PROPERTIES:
+:CATEGORY: ${1:401}
+:END:
+$0
