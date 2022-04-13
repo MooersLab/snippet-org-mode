@@ -18,7 +18,7 @@ Obviously, the pygments Python package has to be installed on your system to use
 
 ### code- snippets
 
-The `code*' snippets are a series of alternate configurations for the custom-mode code env, which encloses code in the minted env. 
+The `code-` snippets are a series of alternate configurations for the custom-mode code env, which encloses code in the minted env. 
 The code env enables adding a caption to the minted code block.  
 It also adds an index key and label. 
 You have to define the code env by adding `\newenvironment{code}{\captionsetup{type=listing}}{}` to the preamble of your LaTeX file. 
