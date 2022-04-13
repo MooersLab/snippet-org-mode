@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: elisp source block with value scalar in header required to get ouput results block
+# key: elsrc2
+# group: codeBlocks
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+#+BEGIN_SRC emacs-lisp :results value scalar
+${1:change}
+#+END_SRC
+$0
