@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Adding a local repo to GitHub.
+# key: localGitPush
+# group: protocols
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+ 0. ~git init~
+ 1. ~git add --all~
+ 2. ~git commit -m 'First commit'~
+ 3. ~git remote add origin <remote repository URL>~
+ 4. ~git remote -v~
+ 5. ~git push origin master~
+  
