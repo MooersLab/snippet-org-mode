@@ -18,13 +18,13 @@ Obviously, the pygments Python package has to be installed on your system to use
 
 ### code- snippets
 
-The `code-` snippets are a series of alternate configurations for the custom-mode code env, which encloses code in the minted env. 
+The `code*` snippets are a series of alternate configurations for the custom-mode code env, which encloses code in the minted env. 
 The code env enables adding a caption to the minted code block.  
 It also adds an index key and label. 
 You have to define the code env by adding `\newenvironment{code}{\captionsetup{type=listing}}{}` to the preamble of your LaTeX file. 
 The `eqcaptioned` snippet encloses an equation and adds a caption as well as index key and label.
 
-## pymolpy- snippets
+### pymolpy- snippets
 
 See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
 These snippets are also stored in `~/.emacs.d/snippets/org-mode` so that they are accessible for literate programmming with PyMOL in org documents.
