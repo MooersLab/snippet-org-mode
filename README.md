@@ -31,7 +31,32 @@ The eqc environment is a float whereas an equation is not.
 Only floats can have captions.
 The snippet also adds an index key and a label.
 
-### pymolpy- snippets
+### org-* snippets
+
+These snippets are written in org markdown.
+
+#### org-codeblock-* snippets
+
+These snippets provide templates for org-mode code blocks.
+This header parameters required to obtain in-line output can vary with programming language.
+Configuring the header can be time-consuming becuase the information can take time to dig up and to test.
+For example, it took me two hours to figure out how to get Emacs lisp to send output to the `:RESULTs:` drawer. 
+
+
+#### org-property-* snippets
+
+These snippets are property block snippets.
+For example, the `org-property-category` snippet is useful for labeling sections so that they show up in customized agenda views.
+I use these to label the TODO items of a specific project. 
+A customized agenda view can then include these TODO items.
+
+The `org-property-habit` snippet is useful for repeating TODO items.
+
+### protocol-* snippets
+
+These snippets print out the steps for doing multi-step tasks.
+
+### pymolpy-* snippets
 
 See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
 These snippets are also stored in `~/.emacs.d/snippets/org-mode` so that they are accessible for literate programmming with PyMOL in org documents.
