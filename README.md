@@ -11,7 +11,7 @@ This is usually in `~/.emacs.d/snippets/org-mode`.
 Use the `File/Save copy in Drive` pulldown menu item option. 
 
 The snippet tab trigger (or key in yasnippet parlance) is often not the same as the filename.
-I mapped C-o to yas-expand to insert the snippet to after entering the key.
+I mapped `C-o` to the function `yas-expand` to insert the snippet after entering the key.
 Add the following line to your Emacs initialization file.
 
 ```elisp
