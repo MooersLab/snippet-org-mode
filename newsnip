@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ${1:verbose description}
+# key: ${2:shortTabTrigger}
+# group: ${3:groupname}
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+${4:Enter code here}
+$0
+
