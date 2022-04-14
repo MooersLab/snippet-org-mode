@@ -1,11 +1,15 @@
 # snippet-org-mode
 
-This is a library of yasnippet snippets for Org-mode. 
+This is a library of yasnippet snippets for Org-mode.
+It is designed to be used in Emacs.
+Org-mode is a feature rich markup language that supports easy polyglot literate programming and that can incorporate blocks written in LaTeX.
+This latter feature vastly extends the universe of possible typesetting compared to various markdown variants.
+The long-term goal of this snippet library is to facilitate literate programming in Org-mode.
+
 Install the library where you store your user-generated snippets for the yasnippet package. 
 This is usually in `~/.emacs.d/snippets/org-mode`. 
 Use the `File/Save copy in Drive` pulldown menu item option. 
 
-The snippets are grouped via their filename.
 The snippet tab trigger (or key in yasnippet parlance) is often not the same as the filename.
 I mapped C-o to yas-expand to insert the snippet to after entering the key.
 Add the following line to your Emacs initialization file.
@@ -13,6 +17,9 @@ Add the following line to your Emacs initialization file.
 ```elisp
 (global-set-key "\C-o" 'yas-expand)
 ```
+
+The snippets are grouped via their filename.
+Some prominant groups and subgroups are explained below.
 
 ## latex-env-* snippets
 
@@ -38,6 +45,11 @@ The eqc environment is a float whereas an equation is not.
 Only floats can have captions.
 The snippet also adds an index key and a label.
 
+## newsnip
+
+This is a replacement template snippet for writing new snippets.
+The template invoked in the yasnippet pulldown menu is not a complete and thereby not as useful to me.
+
 ## org-* snippets
 
 These snippets are written in org markdown.
@@ -47,7 +59,7 @@ These snippets are written in org markdown.
 These snippets provide templates for org-mode code blocks.
 This header parameters required to obtain in-line output can vary with programming language.
 Configuring the header can be time-consuming becuase the information can take time to dig up and to test.
-For example, it took me two hours to figure out how to get Emacs lisp to send output to the `:RESULTs:` drawer. 
+For example, it took me two hours to figure out how to get Emacs lisp to send output to the `:RESULTS:` drawer. 
 
 
 ### org-property-* snippets
