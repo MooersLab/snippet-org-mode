@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: insert weblink template in an org file
+# key: weblink
+# group: links
+# contributor: Blaine Mooers bmooers1@gmail.com
+# --
+[[${1:changeURL}] [${2:changeName}]]
+$0
+
