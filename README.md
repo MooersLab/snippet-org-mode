@@ -18,6 +18,8 @@ Add the following line to your Emacs initialization file.
 (global-set-key "\C-o" 'yas-expand)
 ```
 
+For my yasnippet configuration see the yasnippet section of my Emacs [config file](https://github.com/MooersLab/configorg/blob/main/config.org).
+
 The snippets are grouped via their filename.
 Some prominant groups and subgroups are explained below.
 
