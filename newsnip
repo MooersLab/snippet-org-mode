@@ -1,9 +1,10 @@
 # -*- mode: snippet -*-
-# name: ${1:verbose description}
-# key: ${2:shortTabTrigger}
-# group: ${3:groupname}
+# name: template for new snippets
+# key: sniptemp
+# group: snippetTemplates
 # contributor: Blaine Mooers bmooers1@gmail.com
 # --
-${4:Enter code here}
+;; Remember to edit the four fields above.
+${1:Enter code here}
 $0
 
