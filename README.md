@@ -20,7 +20,11 @@ Add the following line to your Emacs initialization file.
 
 For my yasnippet configuration see the yasnippet section of my Emacs [config file](https://github.com/MooersLab/configorg/blob/main/config.org).
 
-The snippets are grouped via their filename.
+These snippets can be used in conjunciton with those in the *yasnippets-snippets* package, which you can install via MELPA even though they are stored in the elpa subfolder.
+Both sets of snippets will appear in the table that is displayed in a separeate buffer when you enter `M-x yas-describe-tables`.
+There is a separate table for each active mode and separate subtables for each group.
+
+Below, the snippets are grouped via their filename.
 Some prominant groups and subgroups are explained below.
 
 ## latex-env-* snippets
