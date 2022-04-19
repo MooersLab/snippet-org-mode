@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: protocols
+# name: Use tramp to access OSU cowboy supercomputer.
+# key: tramppete
+# --
+1. C-x C-f /ssh:bmooers@pete.hpc.okstate.edu
+2. enter password 
