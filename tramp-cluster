@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: protocols
+# name: Use tramp  to access OUHSC gpu cluster.
+# key: trampcluster
+# --
+1. C-x C-f /ssh:mooers.hsc.net.ou.edu
+2. enter password 
