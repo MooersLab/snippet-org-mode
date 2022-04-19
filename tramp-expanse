@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: protocols
+# name: Use tramp  to access Expanse at SDSC via xsede.
+# key: trampxsede
+# --
+1. C-x C-f /ssh:bmooers@expanse.sdsc.xsede.org
+2. enter password
+$0
