@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Blaine Mooers bmooers1@gmail.com
+# group: protocols
+# name: Use tramp  to access schooner at OSCER
+# key: trampschooner
+# --
+1. C-x C-f /ssh:bmooers@schooner.oscer.ou.edu
+2. enter password 
