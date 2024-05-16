@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=snippet-org-mode&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=snippet-org-mode&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -91,4 +91,13 @@ These snippets print out the steps for doing multi-step tasks.
 See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
 These snippets are also stored in `~/.emacs.d/snippets/org-mode` so they are accessible for literate programming with PyMOL in org documents.
 
+## Update history
+|Version      | Changes                                                                                                                                    | Date                 |
+|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+| Version 0.2 |  Added badges, funding, and update table. Made numerous edits.                                                                             | 2024 May 16          |
+
+
+## Funding
+- NIH: R01 CA242845, R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
 
