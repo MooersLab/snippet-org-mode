@@ -1,4 +1,6 @@
-# snippet-org-mode
+
+
+# A library of yasnippet snippets for Org-mode
 
 This is a library of yasnippet snippets for Org-mode.
 It is designed to be used in Emacs.
