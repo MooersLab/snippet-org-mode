@@ -1,3 +1,5 @@
+![Version](https://img.shields.io/static/v1?label=snippet-org-mode&message=0.1&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 # A library of yasnippet snippets for Org-mode
@@ -22,12 +24,13 @@ Add the following line to your Emacs initialization file.
 
 For my yasnippet configuration see the yasnippet section of my Emacs [config file](https://github.com/MooersLab/configorg/blob/main/config.org).
 
-These snippets can be used in conjunciton with those in the *yasnippets-snippets* package, which you can install via MELPA even though they are stored in the elpa subfolder.
-Both sets of snippets will appear in the table that is displayed in a separeate buffer when you enter `M-x yas-describe-tables`.
+These snippets can be used in conjunction with those in the *snippets-snippets* package, which you can install via MELPA even though they are stored in the alpha subfolder.
+Both sets of snippets will appear in the table displayed in a separate buffer when you enter `M-x yas-describe-tables`.
 There is a separate table for each active mode and separate subtables for each group.
+By clicking on the name of a snippet in this table, you get access to its code that you can edit.
 
 Below, the snippets are grouped via their filename.
-Some prominant groups and subgroups are explained below.
+Some prominent groups and subgroups are explained below.
 
 ## latex-env-* snippets
 
@@ -36,7 +39,7 @@ Org will send these to the LaTeX compiler upon export to PDF.
 
 The `mintin*` snippets are preset with the corresponding language parameter for the `\mintinline{}{}` command. 
 This command is not an environment, but I included this group of snippets to save space in the yasnippet pulldown menu. 
-Obviously, the pygments Python package has to be installed on your system to use these.
+Obviously, the *pygments* Python package has to be installed on your system to use these.
 
 ### latex-env-code-* snippets
 
@@ -44,19 +47,19 @@ The `latex-envcode*` snippets are a series of alternate configurations for the c
 The code env enables adding a caption to the minted code block.  
 It also adds an index key and label. 
 You have to define the code env by adding `\newenvironment{code}{\captionsetup{type=listing}}{}` to the preamble of your LaTeX file. 
-The numbers in the snippet name correpsond to alternate configurations of the minted environment.
+The numbers in the snippet name corresponds to alternate configurations of the minted environment.
 
 ### latex-env-eqcaptioned gives equations with captions
 
-The `eqcaptioned` snippet encloses an equation in a `eqc` environment to enable the addition of a caption.
-The eqc environment is a float whereas an equation is not.
+The `eqcaptioned` snippet encloses an equation in an `eqc` environment to enable the addition of a caption.
+The `eqc` environment is a float whereas an equation is not.
 Only floats can have captions.
 The snippet also adds an index key and a label.
 
 ## newsnip
 
-This is a replacement template snippet for writing new snippets.
-The template invoked in the yasnippet pulldown menu is not a complete and thereby not as useful to me.
+This is my customized template snippet for writing new snippets.
+The template invoked in the yasnippet pulldown menu is not as complete and thereby not as useful to me.
 
 ## org-* snippets
 
@@ -65,8 +68,8 @@ These snippets are written in org markdown.
 ### org-codeblock-* snippets
 
 These snippets provide templates for org-mode code blocks.
-This header parameters required to obtain in-line output can vary with programming language.
-Configuring the header can be time-consuming becuase the information can take time to dig up and to test.
+The header parameters required to obtain in-line output can vary with the programming language.
+Configuring the header can be time-consuming because the information can take time to dig up and to test.
 For example, it took me two hours to figure out how to get Emacs lisp to send output to the `:RESULTS:` drawer. 
 
 
@@ -86,4 +89,6 @@ These snippets print out the steps for doing multi-step tasks.
 ## pymolpy-* snippets
 
 See this [repo](https://github.com/MooersLab/orgpymolpysnips) for PyMOL snippets written in Python for use in org-mode.
-These snippets are also stored in `~/.emacs.d/snippets/org-mode` so that they are accessible for literate programmming with PyMOL in org documents.
+These snippets are also stored in `~/.emacs.d/snippets/org-mode` so they are accessible for literate programming with PyMOL in org documents.
+
+
